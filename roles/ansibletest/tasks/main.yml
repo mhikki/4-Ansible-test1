@@ -1,0 +1,4 @@
+---
+
+- name: "[ansibletest] - update cache"
+ action: yum name=wget state=installed 
