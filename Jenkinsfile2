@@ -5,7 +5,7 @@ node{
     }
    stage('Ansible-Lancement du playbook') {
          
-        sh 'ansible-playbook -i hosts playbook.yml'
+        sh 'sudo ansible-playbook -i hosts playbook.yml'
     }
    
 }
