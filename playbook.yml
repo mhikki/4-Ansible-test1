@@ -1,11 +1,11 @@
 ---
  - hosts: webservers
-   user: root
+   user: jenkins
    tasks: 
    # - name : Verification service docker
    #   service: name=docker state=started enabled= yes
 
-     - name : Installation wgett
-       yum: name=wget state=latest
+   #  - name : Installation wgett
+   #    yum: name=wget state=latest
      - name :  Service Status
        service: name=docker state=started
